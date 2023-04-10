@@ -43,4 +43,25 @@ public class StudentTest {
 
 
     }
+
+    @Test
+    public void test04() {
+        Student student = new Student(2001, "lisi");
+        System.out.println("student = " + student);
+    }
+
+    @Test
+    public void test05() {
+        ProductRecord productRecord = new ProductRecord(1001, "手机", 200);
+        productRecord.print();
+    }
+
+    @Test
+    public void test06() {
+        // 定义local record
+        record SaleRecord(String saleId,String productName,Double momey){};
+        //创建对象
+        SaleRecord saleRecord = new SaleRecord("S001", "显示器", 3000.1);
+        System.out.println("saleRecord = " + saleRecord);
+    }
 }
