@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.bjpowernode</groupId>
-    <artifactId>SpringBoot3</artifactId>
+    <artifactId>Lesson01-Project</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>SpringBoot3</name>
+    <name>Lesson01-Project</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -82,8 +82,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>16</source>
-                    <target>16</target>
+                    <source>17</source>
+                    <target>17</target>
                 </configuration>
             </plugin>
         </plugins>
